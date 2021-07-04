@@ -1,5 +1,5 @@
 # Name of workflow
-name: htmlcss
+name: html+css
 
 # Trigger the workflow on push or pull request
 on:
