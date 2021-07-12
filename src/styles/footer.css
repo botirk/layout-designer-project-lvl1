@@ -1,0 +1,113 @@
+footer > div {
+  position: relative;
+
+  display: inline-flex;
+  gap: 122px;
+
+  width: 1110px;
+  height: 190px;
+  margin-top: 100px;
+  margin-left: 165px;
+
+  background-color: #42413c;
+}
+
+footer > p {
+  font-size: 14px;
+  text-align: center;
+}
+
+footer a {
+  color: #1085c5;
+}
+
+footer > div > h3 {
+  padding: 55px;
+
+  color: #fff;
+}
+
+footer > div > div {
+  position: absolute;
+  top: 38px;
+  left: 570px;
+}
+
+footer > p:nth-of-type(1) {
+  margin-top: 76px;
+}
+
+footer > p:nth-of-type(2) {
+  margin-top: 16px;
+}
+
+footer > p:nth-of-type(3) {
+  margin-top: 16px;
+}
+
+footer > div > div > p:nth-of-type(1) {
+  color: #fff;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+footer > div > div > span {
+  display: flex;
+
+  margin-top: 9px;
+}
+
+footer > div > div > span > input[type=email] {
+  width: 423px;
+  height: 50px;
+
+  text-indent: 15px;
+}
+
+footer > div > div > span > input[type=email]::placeholder {
+  color: #757575;
+  font-size: 13.1px;
+}
+
+footer > div > div > span > a::before {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+
+  width: 20px;
+  height: 20px;
+
+  background-image: url(../imgs/send.svg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  content: '';
+}
+
+footer > div > div > span > a {
+
+  position: relative;
+
+  display: inline-block;
+
+  width: 70px;
+  height: 50px;
+
+  margin-left: -8px;
+
+  background: #fe8a02;
+}
+
+footer > div > div > span > a:hover {
+  background: #ea7600;
+}
+
+u {
+  text-decoration: underline;
+}
+
+footer > div > div > p:nth-of-type(2) {
+  color: white;
+  font-size: 12px;
+}

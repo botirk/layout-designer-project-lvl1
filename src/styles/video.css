@@ -1,0 +1,49 @@
+#video {
+  position: relative;
+
+  width: 100%;
+  height: 814px;
+
+  background: white;
+}
+
+#video > h2 {
+  position: absolute;
+  top: 100px;
+  left: 165px;
+
+  width: 1110px;
+  height: 146px;
+
+  color: #2a2626;
+  text-align: center;
+}
+
+#video > span {
+  position: absolute;
+  top: 273px;
+  left: 165px;
+
+  width: 1110px;
+  height: 26px;
+
+  color: #212529;
+  text-align: center;
+}
+
+#video > h2 > span {
+  color: #fe8a02;
+}
+
+#video > iframe {
+
+  position: absolute;
+  top: 329px;
+  left: 261px;
+  z-index: 1;
+
+  width: 919px;
+  height: 569px;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
