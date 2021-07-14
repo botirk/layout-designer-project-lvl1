@@ -8,12 +8,15 @@ section > div {
   padding-left: 165px;
 }
 
-section > div:nth-of-type(3) > ul, p {
+section > div:nth-of-type(3) > ul,
+section > div:nth-of-type(3) > p {
   margin: revert;
   padding: revert;
 }
 
-section > div > h1, h2, h3 {
+section > div > h1,
+section > div > h2,
+section > div > h3 {
   margin-bottom: 30px;
 }
 
