@@ -118,6 +118,7 @@ section:not(#video) > div > h3 {
   position: relative;
 
   width: 100%;
+  min-width: 1275px;
 
   background: #f5f4f0;
 }
@@ -142,6 +143,7 @@ section:not(#video) > div > h3 {
   position: relative;
 
   width: 100%;
+  min-width: 1275px;
   margin-top: -55px;
 
   background: #b09a81;
@@ -167,6 +169,7 @@ section:not(#video) > div > h3 {
   position: relative;
 
   width: 100%;
+  min-width: 1275px;
 
   background: #f5f4f0;
 }
@@ -191,6 +194,7 @@ section:not(#video) > div > h3 {
   position: relative;
 
   width: 100%;
+  min-width: 1275px;
 
   background: #b09a81;
 }
@@ -215,6 +219,7 @@ section:not(#video) > div > h3 {
   position: relative;
 
   width: 100%;
+  min-width: 1275px;
 
   background: #f5f4f0;
 }
