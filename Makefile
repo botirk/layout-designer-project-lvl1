@@ -1,5 +1,5 @@
 install:
-	npm install
+	npm install -D
 
 lint:
 	npx stylelint ./src/styles/*.css
