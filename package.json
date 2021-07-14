@@ -7,16 +7,13 @@
     "url": "https://github.com/botirk/layout-designer-project-lvl1"
   },
   "main": "",
-  "dependencies": {
+  "devDependencies": {
     "htmlhint": "^0.14.2",
     "stylelint": "^13.8.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
     "surge": "^0.21.7"
-  },
-  "devDependencies": {
-    
   },
   "author": "botirk",
   "license": "ISC"
