@@ -4,6 +4,15 @@ section:not(#video) {
   padding-bottom: 100px;
 }
 
+.header-flex > div {
+  width: 502px;
+}
+
+.content > div {
+  column-count: 2;
+  column-gap: 30px;
+}
+
 section:not(#video) > div {
   padding-left: 165px;
 }
@@ -51,10 +60,6 @@ section:not(#video) > div > h3 {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.header-flex > div {
-  width: 502px;
-}
-
 .header-flex > div > span {
   color: #908d8b;
   font-size: 24px;
@@ -91,11 +96,6 @@ section:not(#video) > div > h3 {
   color: #b09a81;
 
   background: #fff;
-}
-
-.content > div {
-  column-count: 2;
-  column-gap: 30px;
 }
 
 /* ikea */
