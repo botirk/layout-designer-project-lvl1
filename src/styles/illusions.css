@@ -8,6 +8,21 @@ section > div {
   padding-left: 165px;
 }
 
+.header-flex > div > p {
+  font-size: 34px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 40.8px;
+}
+
+.content > div > p {
+  width: 540px;
+  break-inside: avoid;
+}
+
+.content-dark > div > p {
+  color: white;
+}
+
 section > div > div:nth-of-type(3) > ul,
 section > div > div:nth-of-type(3) > p {
   margin: revert;
@@ -55,12 +70,6 @@ section > div > h3 {
   color: #d7ccc0;
 }
 
-.header-flex > div > p {
-  font-size: 34px;
-  font-family: 'Neucha', sans-serif;
-  line-height: 40.8px;
-}
-
 .content {
   width: 1100px;
   max-width: 1110px;
@@ -89,15 +98,6 @@ section > div > h3 {
   column-gap: 30px;
 }
 
-.content > div > p {
-  width: 540px;
-  break-inside: avoid;
-}
-
-.content-dark > div > p {
-  color: white;
-}
-
 /* ikea */
 #ikea-effect::before {
   position: absolute;
@@ -116,6 +116,7 @@ section > div > h3 {
 
 #ikea-effect {
   position: relative;
+
   width: 100%;
 
   background: #f5f4f0;
@@ -139,6 +140,7 @@ section > div > h3 {
 
 #premature-optimization {
   position: relative;
+
   width: 100%;
   margin-top: -55px;
 
@@ -163,6 +165,7 @@ section > div > h3 {
 
 #distortion-of-novelty {
   position: relative;
+
   width: 100%;
 
   background: #f5f4f0;
@@ -186,6 +189,7 @@ section > div > h3 {
 
 #hyperbolic-depreciation {
   position: relative;
+
   width: 100%;
 
   background: #b09a81;
@@ -209,6 +213,7 @@ section > div > h3 {
 
 #errors-in-planning {
   position: relative;
+
   width: 100%;
 
   background: #f5f4f0;
