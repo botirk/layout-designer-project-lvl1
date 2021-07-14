@@ -1,9 +1,7 @@
 /* list of illusions */
 .header-flex {
-
-  position: absolute;
-  top: 100px;
-  left: 165px;
+  padding-top: 100px;
+  padding-left: 165px;
 
   display: flex;
   gap: 30px;
@@ -50,9 +48,9 @@
 }
 
 .content {
-  position: absolute;
-  top: 634px;
-  left: 165px;
+  margin-top: 100px;
+  margin-left: 165px;
+  padding-bottom: 100px;
 
   width: 1100px;
   max-width: 1110px;
@@ -107,9 +105,7 @@
 
 #ikea-effect {
   position: relative;
-
   width: 100%;
-  height: 905px;
 
   background: #f5f4f0;
 }
@@ -132,9 +128,7 @@
 
 #premature-optimization {
   position: relative;
-
   width: 100%;
-  height: 855px;
   margin-top: -55px;
 
   background: #b09a81;
@@ -158,9 +152,7 @@
 
 #distortion-of-novelty {
   position: relative;
-
   width: 100%;
-  height: 880px;
 
   background: #f5f4f0;
 }
@@ -183,9 +175,7 @@
 
 #hyperbolic-depreciation {
   position: relative;
-
   width: 100%;
-  height: 937px;
 
   background: #b09a81;
 }
@@ -195,7 +185,7 @@
   position: absolute;
 
   width: 100%;
-  height: 862px;
+  height: 919px;
 
   background-image: url(../imgs/background.png);
   background-repeat: no-repeat;
@@ -208,9 +198,7 @@
 
 #errors-in-planning {
   position: relative;
-
   width: 100%;
-  height: 919px;
 
   background: #f5f4f0;
 }
