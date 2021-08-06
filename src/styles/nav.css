@@ -1,74 +1,65 @@
 #navigation {
   position: relative;
 
-  width: 100%;
-  min-width: 1440px;
   height: 991px;
+
+  padding-top: 100px;
 
   background: #42413c;
 }
 
-#navigation > div {
-  position: absolute;
-  top: 200px;
-  left: 165px;
-
+#navigation .container {
   display: flex;
-  flex-basis: 350px;
   flex-wrap: wrap;
   gap: 30px;
-  max-width: 1110px;
 }
 
-#navigation > div > h2 {
-  color: white;
+#navigation h2 {
   font-size: 52px;
   white-space: nowrap;
 }
 
-#navigation > div > h2 > span {
-  color: #fe8a02;
-}
-
-.card {
-  box-sizing: border-box;
+#navigation .card {
   width: 350px;
-}
-
-.white-card {
-  padding: 24px;
-
-  background-color: #f5f4f0;
-}
-
-.card-first-line {
   height: 323px;
 }
 
-.card-second-line {
+#navigation .card.card-second-line {
   height: 348px;
 }
 
-.card-number {
-  padding-bottom: 40px;
+#navigation .card.card-container {
+  padding: 24px;
+}
 
+#navigation .card .card-number {
   font-size: 64px;
   font-family: 'Neucha', sans-serif;
-  line-height: 1;
+  line-height: 64px;
 }
 
-.card-h3 {
-  padding-bottom: 16px;
+#navigation .card h3 {
 
-  color: #fe8a02;
+  margin-top: 40px;
+
+  font-size: 34px;
+  line-height: 40.8px;
 }
 
-.white-card:hover {
-  color: white;
+#navigation .card .card-description {
 
+  margin-top: 16px;
+
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+#navigation .card.card-container:hover {
   background-color: #fe8a02;
 }
 
-.white-card:hover > .card-h3 {
+#navigation .card.card-container:hover .card-number,
+#navigation .card.card-container:hover h3,
+#navigation .card.card-container:hover .card-description {
   color: white;
 }

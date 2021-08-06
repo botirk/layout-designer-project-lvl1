@@ -1,50 +1,25 @@
 #video {
   position: relative;
 
-  width: 100%;
-  min-width: 1440px;
   height: 814px;
+  max-height: 814px;
 
   background: white;
 }
 
-#video > h2 {
-  position: absolute;
-  top: 100px;
-  left: 165px;
-
-  width: 1110px;
-  height: 146px;
-
-  color: #2a2626;
-  text-align: center;
+#video p {
+  margin-top: 27px;
 }
 
-#video > span {
-  position: absolute;
-  top: 273px;
-  left: 165px;
+#video iframe {
+  position: relative;
+  z-index: 10;
 
-  width: 1110px;
-  height: 26px;
-
-  color: #212529;
-  text-align: center;
-}
-
-#video > h2 > span {
-  color: #fe8a02;
-}
-
-#video > iframe {
-
-  position: absolute;
-  top: 329px;
-  left: 261px;
-  z-index: 1;
-
+  display: block;
   width: 919px;
   height: 569px;
+  margin: 0 auto;
+  margin-top: 30px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }

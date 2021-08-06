@@ -1,81 +1,62 @@
 footer {
-  width: 100%;
-  min-width: 1440px;
   height: 581px;
 }
 
-footer > div {
-  position: relative;
+footer .email {
+  display: flex;
 
-  display: inline-flex;
-  gap: 122px;
-
-  width: 1110px;
   height: 190px;
-  margin-top: 100px;
-  margin-left: 165px;
-
-  background-color: #42413c;
 }
 
-footer > p {
-  font-size: 14px;
-  text-align: center;
+footer h3 {
+  display: inline-block;
+
+  width: 393px;
+  margin-top: 55px;
+  margin-left: 55px;
 }
 
-footer a {
-  color: #1085c5;
+footer .input-block {
+  display: inline-block;
+
+  margin-top: 38px;
+  margin-left: 122px;
 }
 
-footer > div > h3 {
-  padding: 55px;
-
-  color: #fff;
-}
-
-footer > div > div {
-  position: absolute;
-  top: 38px;
-  left: 570px;
-}
-
-footer > p:nth-of-type(1) {
-  margin-top: 76px;
-}
-
-footer > p:nth-of-type(2) {
-  margin-top: 16px;
-}
-
-footer > p:nth-of-type(3) {
-  margin-top: 16px;
-}
-
-footer > div > div > p:nth-of-type(1) {
-  color: #fff;
+footer .input-block p:nth-of-type(1) {
   font-size: 18px;
-  line-height: 160%;
 }
 
-footer > div > div > span {
+footer .input-block .input-inline {
   display: flex;
 
   margin-top: 9px;
 }
 
-footer > div > div > span > input[type=email] {
+footer .input-block input {
   width: 423px;
   height: 50px;
 
   text-indent: 15px;
 }
 
-footer > div > div > span > input[type=email]::placeholder {
+footer .input-block input::placeholder {
   color: #757575;
   font-size: 13.1px;
 }
 
-footer > div > div > span > a::before {
+footer .input-block button {
+  position: relative;
+
+  display: inline-block;
+
+  width: 70px;
+  height: 50px;
+
+  margin-left: -8px;
+}
+
+footer .input-block button::before {
   position: absolute;
   top: 15px;
   left: 25px;
@@ -91,29 +72,26 @@ footer > div > div > span > a::before {
   content: '';
 }
 
-footer > div > div > span > a {
-
-  position: relative;
-
-  display: inline-block;
-
-  width: 70px;
-  height: 50px;
-
-  margin-left: -8px;
-
-  background: #fe8a02;
+footer .input-block button:hover {
+  background: #ea7600;
+  cursor: pointer;
 }
 
-footer > div > div > span > a:hover {
-  background: #ea7600;
+footer .input-block p:nth-of-type(2) {
+  font-size: 12px;
+}
+
+footer .credits {
+  margin-top: 16px;
+
+  font-size: 14px;
+  text-align: center;
+}
+
+footer .credits:first-of-type {
+  margin-top: 76px;
 }
 
 u {
   text-decoration: underline;
-}
-
-footer > div > div > p:nth-of-type(2) {
-  color: white;
-  font-size: 12px;
 }

@@ -1,3 +1,5 @@
+## Layout:
+[Figma](https://www.figma.com/file/qV9FZGELdeKMsk63QLiKXY/Hexlet-LayoutDesigner-Project.-Cognitive-Biases?node-id=0%3A1 "Click me")
 ## Example:
 [Deployed project](https://botirkLayout1.surge.sh "Click me")
 ### Hexlet tests:

@@ -1,4 +1,3 @@
-/** CSS STYLE **/
 @font-face {
   font-weight: 400;
   font-family: 'OpenSans';
@@ -17,27 +16,29 @@
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0;
 
-  color: inherit;
   text-decoration: inherit;
 }
 
 body {
-  color: #2a2626;
+  width: 100%;
+  min-width: 1440px;
+
   font-size: 16px;
   font-family: 'OpenSans', sans-serif;
-  line-height: 1.6em;
+  line-height: 160%;
 }
 
 h1,
 h2,
-h3 {
-  color: #fe8a02;
+h3,
+h4 {
   font-family: 'Neucha', sans-serif;
-  line-height: 1.2em;
+  line-height: 120%;
 }
 
 h1 {
@@ -50,4 +51,99 @@ h2 {
 
 h3 {
   font-size: 34px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+.container {
+  position: relative;
+
+  width: 1110px;
+  max-width: 1110px;
+  margin-left: 165px;
+
+  padding-top: 100px;
+}
+
+.color-primary {
+  color: #fe8a02;
+}
+
+.color-text {
+  color: #2a2626;
+}
+
+.contrast .color-text {
+  color: white;
+}
+
+.color-white {
+  color: white;
+}
+
+.contrast .color-white {
+  color: #b09a81;
+}
+
+.color-dark {
+  color: #212529;
+}
+
+.color-primary-dark {
+  color: #42413c;
+}
+
+.color-secondary {
+  color: #908d8b;
+}
+
+.contrast .color-secondary {
+  color: #d7ccc0;
+}
+
+.bg {
+  background-color: #f5f4f0;
+}
+
+.contrast.bg {
+  background-color: #b09a81;
+}
+
+.bg-primary {
+  background-color: #fe8a02;
+}
+
+.bg-primary-dark {
+  background-color: #42413c;
+}
+
+.bg-light {
+  background-color: #f5f4f0;
+}
+
+.bg-dark {
+  background-color: #b09a81;
+}
+
+.contrast .bg-dark {
+  background-color: white;
+}
+
+.row-columns {
+  display: flex;
+  gap: 30px;
+}
+
+.contrast .row-columns {
+  flex-direction: row-reverse;
+}
+
+.row-columns.row-columns-same > * {
+  flex-basis: 540px;
+}
+
+.text-center {
+  text-align: center;
 }
