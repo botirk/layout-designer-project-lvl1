@@ -39,7 +39,7 @@
 }
 
 /* ikea */
-#ikea-effect::before {
+.illusion .illusion.illusion#ikea-effect::before {
   position: absolute;
 
   width: 100%;
@@ -55,7 +55,7 @@
 }
 
 /* optimization */
-#premature-optimization::before {
+.illusion #premature-optimization::before {
   position: absolute;
 
   width: 100%;
@@ -71,11 +71,7 @@
 }
 
 /* distortion-of-novelty */
-#distortion-of-novelty {
-  height: 880px;
-}
-
-#distortion-of-novelty::before {
+.illusion #distortion-of-novelty::before {
   position: absolute;
 
   width: 100%;
@@ -91,7 +87,7 @@
 }
 
 /* hyperbolic-depreciation */
-#hyperbolic-depreciation::before {
+.illusion #hyperbolic-depreciation::before {
   position: absolute;
 
   width: 100%;
@@ -107,7 +103,7 @@
 }
 
 /* hyperbolic-depreciation */
-#errors-in-planning::before {
+.illusion #errors-in-planning::before {
   position: absolute;
 
   width: 100%;
