@@ -3,8 +3,8 @@
 
   /* height: 814px;
   max-height: 814px; */
-  height: 800px;
-  max-height: 800px;
+  height: 804px;
+  max-height: 804px;
 
   background: white;
 }
@@ -14,14 +14,13 @@
 }
 
 #video iframe {
-  position: relative;
+  position: absolute;
+  top: 329px;
+  left: calc(261px - 165px);
   z-index: 10;
 
-  display: block;
   width: 919px;
   height: 569px;
-  margin: 0 auto;
-  margin-top: 30px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
