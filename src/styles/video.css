@@ -1,10 +1,10 @@
 #video {
   position: relative;
 
-  /*height: 814px;
-  max-height: 814px;*/
-  height: 794px;
-  max-height: 794px;
+  /* height: 814px;
+  max-height: 814px; */
+  height: 800px;
+  max-height: 800px;
 
   background: white;
 }
