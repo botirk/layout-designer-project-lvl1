@@ -93,5 +93,7 @@ footer .credits:first-of-type {
 }
 
 u {
+  color: #1085c5;
+
   text-decoration: underline;
 }

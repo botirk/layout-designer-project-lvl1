@@ -71,6 +71,10 @@
 }
 
 /* distortion-of-novelty */
+#distortion-of-novelty {
+  height: 880px;
+}
+
 #distortion-of-novelty::before {
   position: absolute;
 
