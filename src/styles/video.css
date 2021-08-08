@@ -1,12 +1,9 @@
 #video {
   position: relative;
-
   /* height: 814px;
   max-height: 814px; */
   height: 804px;
   max-height: 804px;
-
-  background: white;
 }
 
 #video p {
